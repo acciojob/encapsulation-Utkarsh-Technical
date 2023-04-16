@@ -1,9 +1,10 @@
 package com.driver;
 
 public class Main {
-  public static void main(String[] args){
-      RWOnly obj = new RWOnly();
-      obj.writeOnly("AccioJob");
-      System.out.println(obj.readOnly());
-  }
+    public static void main(String[] args) {
+        RWOnly obj= new RWOnly();
+        obj.writeOnly ("Utkarsh");
+        System.out.println(obj.readOnly ());
+    }
+
 }
