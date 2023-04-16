@@ -3,10 +3,17 @@ package com.driver;
 public class RWOnly {
     private String name;
 
-    void setter(String name){
+    public String readOnly(){
+        return name;
+    }
+
+    public void writeOnly(String name){
+        this.name = name;
+    }
+    void setName(String name){
         this.name=name;
     }
-    String getter(){
+    String getName(){
         return name;
     }
 
